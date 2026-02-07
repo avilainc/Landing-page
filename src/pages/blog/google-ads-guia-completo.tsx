@@ -165,11 +165,11 @@ export default function ArtigoGoogleAds() {
             <h2>Métricas Essenciais Para Acompanhar</h2>
             <ul>
               <li><strong>Impressões:</strong> Quantas vezes seu anúncio foi mostrado</li>
-              <li><strong>CTR (Click-Through Rate):</strong> % de cliques por impressão (bom: >3%)</li>
+              <li><strong>CTR (Click-Through Rate):</strong> % de cliques por impressão (bom: {'>'}3%)</li>
               <li><strong>CPC (Custo Por Clique):</strong> Quanto você paga por cada clique</li>
-              <li><strong>Taxa de Conversão:</strong> % de cliques que viram conversões (bom: >2.5%)</li>
+              <li><strong>Taxa de Conversão:</strong> % de cliques que viram conversões (bom: {'>'}2.5%)</li>
               <li><strong>CPA (Custo Por Aquisição):</strong> Quanto você paga por cada conversão</li>
-              <li><strong>ROAS (Return on Ad Spend):</strong> Receita/Custo dos anúncios (meta: >400%)</li>
+              <li><strong>ROAS (Return on Ad Spend):</strong> Receita/Custo dos anúncios (meta: {'>'}400%)</li>
               <li><strong>Quality Score:</strong> Nota do Google (1-10) - afeta CPC e posição</li>
             </ul>
 
