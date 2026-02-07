@@ -76,7 +76,14 @@ export default function ArtigoConteudoRedesSociais() {
 
               {/* Hero Section */}
               <div className="mb-12">
-                <div className="bg-gradient-to-br from-pink-600 via-purple-600 to-indigo-700 rounded-3xl p-12 text-white shadow-2xl relative overflow-hidden">
+                <div 
+                  className="bg-gradient-to-br from-blue-600 via-purple-700 to-pink-900 rounded-3xl p-12 text-white shadow-2xl relative overflow-hidden"
+                  style={{
+                    backgroundImage: `linear-gradient(to bottom right, rgba(37, 99, 235, 0.95), rgba(126, 34, 206, 0.95), rgba(131, 24, 67, 0.95)), url(https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&h=600&fit=crop)`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center'
+                  }}
+                >
                   <div className="absolute top-0 right-0 w-96 h-96 bg-white opacity-10 rounded-full -mr-48 -mt-48"></div>
                   <div className="absolute bottom-0 left-0 w-64 h-64 bg-white opacity-10 rounded-full -ml-32 -mb-32"></div>
                   

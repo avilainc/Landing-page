@@ -98,7 +98,14 @@ export default function Artigo10EstrategiasSEO() {
 
               {/* Hero Section */}
               <div className="mb-12">
-                <div className="bg-gradient-to-br from-primary-600 via-primary-700 to-primary-900 rounded-3xl p-12 text-white shadow-2xl relative overflow-hidden">
+                <div 
+                  className="bg-gradient-to-br from-primary-600 via-primary-700 to-primary-900 rounded-3xl p-12 text-white shadow-2xl relative overflow-hidden"
+                  style={{
+                    backgroundImage: `linear-gradient(to bottom right, rgba(37, 99, 235, 0.95), rgba(29, 78, 216, 0.95), rgba(30, 58, 138, 0.95)), url(https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=600&fit=crop)`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center'
+                  }}
+                >
                   <div className="absolute top-0 right-0 w-64 h-64 bg-white opacity-10 rounded-full -mr-32 -mt-32"></div>
                   <div className="absolute bottom-0 left-0 w-48 h-48 bg-white opacity-10 rounded-full -ml-24 -mb-24"></div>
                   

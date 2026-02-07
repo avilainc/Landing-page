@@ -93,7 +93,14 @@ export default function ArtigoGoogleAdsCompleto() {
 
               {/* Hero Section */}
               <div className="mb-12">
-                <div className="bg-gradient-to-br from-blue-600 via-green-600 to-teal-700 rounded-3xl p-12 text-white shadow-2xl relative overflow-hidden">
+                <div 
+                  className="bg-gradient-to-br from-green-600 via-emerald-700 to-teal-900 rounded-3xl p-12 text-white shadow-2xl relative overflow-hidden"
+                  style={{
+                    backgroundImage: `linear-gradient(to bottom right, rgba(22, 163, 74, 0.95), rgba(16, 185, 129, 0.95), rgba(19, 78, 74, 0.95)), url(https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=600&fit=crop)`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center'
+                  }}
+                >
                   <div className="absolute top-0 right-0 w-96 h-96 bg-white opacity-10 rounded-full -mr-48 -mt-48"></div>
                   <div className="absolute bottom-0 left-0 w-64 h-64 bg-white opacity-10 rounded-full -ml-32 -mb-32"></div>
                   
