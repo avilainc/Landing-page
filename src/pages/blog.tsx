@@ -20,6 +20,7 @@ export default function Blog() {
       date: '10 Jan 2026',
       readTime: '7 min',
       image: 'https://via.placeholder.com/600x400/a855f7/ffffff?text=Social+Media',
+      slug: 'conteudo-redes-sociais',
     },
     {
       title: 'O Poder do Marketing de Influência',
