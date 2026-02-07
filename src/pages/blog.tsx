@@ -11,6 +11,7 @@ export default function Blog() {
       date: '15 Jan 2026',
       readTime: '5 min',
       image: 'https://via.placeholder.com/600x400/0ea5e9/ffffff?text=SEO',
+      slug: '10-estrategias-seo-2026',
     },
     {
       title: 'Como Criar Conteúdo que Engaja nas Redes Sociais',
@@ -96,7 +97,7 @@ export default function Blog() {
                   <span className="text-primary-100">{posts[0].readTime} de leitura</span>
                 </div>
                 <Link
-                  href="#"
+                  href={`/blog/${posts[0].slug}`}
                   className="bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-block w-fit"
                 >
                   Ler Artigo Completo
@@ -138,7 +139,7 @@ export default function Blog() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-3 hover:text-primary-600 transition-colors">
-                    <Link href="#">{post.title}</Link>
+                    <Link href={`/blog/${post.slug || '#'}`}>{post.title}</Link>
                   </h3>
                   <p className="text-gray-600 mb-4">
                     {post.excerpt}
