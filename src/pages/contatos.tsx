@@ -1,7 +1,7 @@
 import Layout from '@/components/Layout';
 import Head from 'next/head';
 import { useState } from 'react';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaClock, FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaClock, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 export default function Contatos() {
   const [formData, setFormData] = useState({
@@ -284,9 +284,6 @@ export default function Contatos() {
                     </a>
                     <a href="https://www.linkedin.com/company/avilaops" target="_blank" rel="noopener noreferrer" className="bg-blue-700 text-white p-3 rounded-full hover:bg-blue-800 transition-colors">
                       <FaLinkedin size={20} />
-                    </a>
-                    <a href="https://twitter.com/avilaops" target="_blank" rel="noopener noreferrer" className="bg-blue-400 text-white p-3 rounded-full hover:bg-blue-500 transition-colors">
-                      <FaTwitter size={20} />
                     </a>
                   </div>
                 </div>

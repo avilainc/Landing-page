@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -23,9 +23,6 @@ const Footer = () => {
               </a>
               <a href="https://www.linkedin.com/company/avilaops" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary-400 transition-colors">
                 <FaLinkedin size={20} />
-              </a>
-              <a href="https://twitter.com/avilaops" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary-400 transition-colors">
-                <FaTwitter size={20} />
               </a>
             </div>
           </div>

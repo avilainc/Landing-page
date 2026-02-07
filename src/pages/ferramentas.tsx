@@ -1,7 +1,7 @@
 import Layout from '@/components/Layout';
 import Head from 'next/head';
 import { useState } from 'react';
-import { FaCalendar, FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaCalendar, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 export default function Ferramentas() {
   const [selectedDate, setSelectedDate] = useState(new Date());
@@ -11,7 +11,6 @@ export default function Ferramentas() {
     { name: 'Facebook', icon: <FaFacebook />, color: 'bg-blue-600' },
     { name: 'Instagram', icon: <FaInstagram />, color: 'bg-pink-600' },
     { name: 'LinkedIn', icon: <FaLinkedin />, color: 'bg-blue-700' },
-    { name: 'Twitter', icon: <FaTwitter />, color: 'bg-blue-400' },
   ];
 
   const getDaysInMonth = (date: Date) => {
