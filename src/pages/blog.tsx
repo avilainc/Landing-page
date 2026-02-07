@@ -29,6 +29,7 @@ export default function Blog() {
       date: '5 Jan 2026',
       readTime: '6 min',
       image: 'https://via.placeholder.com/600x400/f59e0b/ffffff?text=Influencers',
+      slug: 'marketing-influencia',
     },
     {
       title: 'Design de Sites: Tendências para 2026',
