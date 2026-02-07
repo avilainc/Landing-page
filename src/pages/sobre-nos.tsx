@@ -123,7 +123,7 @@ export default function SobreNos() {
               </p>
               <div className="border-t border-primary-400 pt-4 mt-4">
                 <p className="text-primary-100">
-                  Telefone: (+351) 910 205 562
+                  Telefone: <a href="https://wa.me/351910205562" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">(+351) 910 205 562</a>
                 </p>
               </div>
             </div>
@@ -139,7 +139,7 @@ export default function SobreNos() {
               </p>
               <div className="border-t border-green-400 pt-4 mt-4">
                 <p className="text-green-100">
-                  Telefone: (+55) 17 99781 1471
+                  Telefone: <a href="https://wa.me/5517997811471" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">(+55) 17 99781 1471</a>
                 </p>
               </div>
             </div>

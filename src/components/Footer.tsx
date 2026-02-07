@@ -76,8 +76,8 @@ const Footer = () => {
               <li className="flex items-start text-gray-400">
                 <FaPhone className="mt-1 mr-2 flex-shrink-0" />
                 <div>
-                  <div>🇵🇹 (+351) 910 205 562</div>
-                  <div className="mt-1">🇧🇷 (+55) 17 99781 1471</div>
+                  <div>🇵🇹 <a href="https://wa.me/351910205562" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">(+351) 910 205 562</a></div>
+                  <div className="mt-1">🇧🇷 <a href="https://wa.me/5517997811471" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">(+55) 17 99781 1471</a></div>
                 </div>
               </li>
               <li className="flex items-start text-gray-400">

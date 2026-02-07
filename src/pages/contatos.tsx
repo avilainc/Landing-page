@@ -218,7 +218,7 @@ export default function Contatos() {
                     <FaPhone className="text-2xl mr-3 mt-1 flex-shrink-0" />
                     <div>
                       <p className="font-semibold">Telefone:</p>
-                      <p className="text-primary-100">(+351) 910 205 562</p>
+                      <a href="https://wa.me/351910205562" target="_blank" rel="noopener noreferrer" className="text-primary-100 hover:text-white transition-colors">(+351) 910 205 562</a>
                     </div>
                   </div>
                 </div>
@@ -245,7 +245,7 @@ export default function Contatos() {
                     <FaPhone className="text-2xl mr-3 mt-1 flex-shrink-0" />
                     <div>
                       <p className="font-semibold">Telefone:</p>
-                      <p className="text-green-100">(+55) 17 99781 1471</p>
+                      <a href="https://wa.me/5517997811471" target="_blank" rel="noopener noreferrer" className="text-green-100 hover:text-white transition-colors">(+55) 17 99781 1471</a>
                     </div>
                   </div>
                 </div>
