@@ -46,6 +46,7 @@ export default function Blog() {
       date: '20 Dez 2025',
       readTime: '10 min',
       image: 'https://via.placeholder.com/600x400/ef4444/ffffff?text=Google+Ads',
+      slug: 'google-ads-guia-completo',
     },
     {
       title: 'Branding: Construindo uma Marca Forte',
