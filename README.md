@@ -127,6 +127,42 @@ Cada página possui meta tags configuradas para otimização de SEO, incluindo:
 - Descrições meta
 - Open Graph tags (podem ser adicionados)
 
+## 🌐 Deploy
+
+O website está configurado para deploy automático com domínio customizado **avilaops.com**.
+
+### Deploy com Vercel (Recomendado)
+
+1. Faça login na [Vercel](https://vercel.com)
+2. Importe o repositório do GitHub: https://github.com/avilainc/Landing-page
+3. A Vercel detectará automaticamente as configurações do Next.js
+4. Configure o domínio customizado:
+   - Vá em Settings > Domains
+   - Adicione `avilaops.com` e `www.avilaops.com`
+   - Configure os registros DNS conforme as instruções da Vercel
+
+### Configuração DNS
+
+Configure os seguintes registros DNS no seu provedor de domínio:
+
+**Para Vercel:**
+- `A` record: `76.76.21.21`
+- `CNAME` record para `www`: `cname.vercel-dns.com`
+
+Ou siga as instruções específicas fornecidas pela Vercel ao adicionar o domínio.
+
+### Deploy Manual
+
+```bash
+npm run build
+npm start
+```
+
+## 📊 Repositório
+
+- **GitHub:** https://github.com/avilainc/Landing-page
+- **Website:** https://avilaops.com
+
 ## 📞 Suporte
 
 Para dúvidas ou suporte:
