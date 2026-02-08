@@ -101,7 +101,7 @@ export default function Artigo10EstrategiasSEO() {
                 <div 
                   className="bg-gradient-to-br from-primary-600 via-primary-700 to-primary-900 rounded-3xl p-12 text-white shadow-2xl relative overflow-hidden"
                   style={{
-                    backgroundImage: `linear-gradient(to bottom right, rgba(37, 99, 235, 0.95), rgba(29, 78, 216, 0.95), rgba(30, 58, 138, 0.95)), url(https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=600&fit=crop)`,
+                    backgroundImage: `linear-gradient(to bottom right, rgba(37, 99, 235, 0.95), rgba(29, 78, 216, 0.95), rgba(30, 58, 138, 0.95)), url(/images/image.avif)`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center'
                   }}
